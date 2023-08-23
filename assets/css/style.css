@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    width: 100vw;
+    margin: 5% 5% 0% 5%;
+}
+
+h3 {
+    margin: 0 0 1% 0;
+}
+
+/* EJERCICIO 1 */
+.borde-rojo-E1 {
+    border: 2px solid #C1272D ;
+}
+
+.ejercicio-1 img {
+    border-radius: 100%;
+}
+
+/* EJERCICIO 2 */
+
+.ejercicio-2 {
+    margin-bottom: 10%;
+
+}
+
+.stickers-contenedor {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60vh;
+    width: 100vw;
+}
+
+.selector-stickers {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ejercicio-2 h4 {
+    margin-top: 2%;
+
+}
